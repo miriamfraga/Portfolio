@@ -1,0 +1,137 @@
+
+.div__contact {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  .first__contact{
+    letter-spacing: 0.30em;
+    h2{
+      color:rgb(51, 48, 48)
+    }
+    
+  }
+  .div__contact__wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+   box-shadow: 3px 3px 3px 3px rgb(222, 214, 214);
+   border-radius: 10px;
+   padding: 1em;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    // margin-bottom: 20px;
+    padding: 2em 2em;
+  
+    .icon__social {
+      font-size: 24px;
+      color: #333;
+      margin: 0 10px;
+      transition: color 0.2s;
+  
+      &:hover {
+        color: #0077b5; /* LinkedIn blue color */
+      }
+    }
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: flex;
+    padding-left: 1em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: 0.10em;
+    font-weight: 600;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    transition: border-color 0.2s;
+    outline: none;
+    &:focus {
+      border-color: #000000; /* Change the focus border color to red (#ff6b6b) */
+    }
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #393c3d;
+    color: rgb(240, 229, 229);
+    padding: 10px 20px;
+    margin-top: 1.5em;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 0.10em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  
+    &:hover {
+      background-color: #fbfdfe;
+      color: black;
+    }
+  }
+  
+  .confirmation-message {
+    font-size: 18px;
+    text-align: center;
+   
+  }
+  
+  
+  .form {
+    margin: 0 auto;
+    max-width: 500px;
+    
+    text-align: center;
+    border-radius: .5em;
+    &__container {
+        margin-top: 2em;
+        display: grid;
+       
+        gap: 0.5em;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

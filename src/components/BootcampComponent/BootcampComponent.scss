@@ -1,0 +1,40 @@
+.bootcamp{
+      display:flex;    
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     box-shadow: 2px 2px 4px rgb(191, 187, 183);
+     border-radius: 20px;
+     &:hover{
+        background-color: rgb(249, 247, 243);
+     }
+     
+    
+     &__info{
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        p{
+            letter-spacing: 0.15em;
+        }
+     }
+    .logo{
+        width:100px;
+        margin-top: 1em;
+        object-fit: cover;
+        object-position: center;
+        height: 100px;
+        border-radius: 100%;
+        mix-blend-mode: multiply;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width:860px) {
+
+  .bootcamp{
+   justify-content: center;
+   align-items: center;
+  }
+
+
+}

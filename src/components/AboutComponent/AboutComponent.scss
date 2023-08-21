@@ -1,0 +1,34 @@
+.section__about{
+   width: 70%;
+   justify-content: center;
+    display:flex;
+    padding: 1em;
+    margin-left: calc(15%);
+   //  background-color: pink;
+   .title{
+      display:flex;
+      flex-direction: column;
+      background-color: red;
+      
+   }
+   .skills{
+     display:flex;
+     flex-direction:column;
+     flex-wrap: wrap;
+     height: 270px;
+     width: 100%;
+     box-shadow: 1px 3px 3px 3px rgb(211, 205, 205);
+     margin: 1em;
+     border-radius: 20px;
+     justify-content:center;
+     &__title{
+      color: rgb(90, 88, 88);
+     }
+     &__title:hover {
+      color: var(--hover-color); 
+      transform: scale(1.2);
+    }
+   }
+}
+ 
+ 

@@ -1,0 +1,150 @@
+.nav{
+    // background-color: pink;
+    &__ul{
+       
+        width: 150px;
+        height: 250px;
+        display:flex;
+        padding-right: 10px;
+        &__li{
+             display:flex;
+            flex-direction: column;
+            list-style: none;
+            justify-content:flex-start;
+
+            &__a{
+                justify-content:flex-start;
+                letter-spacing: 0.15em;
+                text-decoration: none;
+                font-size: 1.5vw;
+                font-weight: 500;
+                // color: rgb(24, 24, 22);
+                // color:rgb(0, 0, 0);
+                color: rgb(68, 79, 85);
+                display:flex;
+                margin: 10px 10px 4px 0;
+                height: 50px;
+
+                .laurea{
+                    width: 25px;
+                    height: 25px;
+                    margin-left: 3px;
+                }
+                .greek{
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 3px;
+                }
+                .contacto{
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 3px;
+                   
+                }
+                span{
+                    display:flex;
+                    justify-content: center;
+                    align-items:flex-start;
+                }
+               &:hover{
+                text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181;
+                border-radius: 10px;
+               }
+             
+             
+             
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .nav {
+          width: 130px;
+        &__ul {
+
+           a{
+            font-weight:800;
+            font-size: larger;
+
+           }
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .nav {
+        width: 130px;
+
+        &__ul {
+
+            a{
+                font-weight:800;
+                font-size: larger;
+               }
+        }
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .nav {
+
+        &__ul {
+           
+            a{
+                font-weight:500;
+                
+               }
+                    
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+   
+   
+
+   
+   
+   
+   
+   
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
