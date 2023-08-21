@@ -87,6 +87,32 @@ const Project = [
      gitHub: "https://github.com/Feminink/Feminink"
     }],
     description: ""
-    }
+    },
+    {
+        projectName: "Portfolio",
+        video: "../../assets/portfolio.mp4",
+        skills: [
+            {
+                name: "react",
+                image:  "./assets/react.png",
+            },
+            {
+                name: "js",
+                image:  "./assets/js.png",
+            },
+            {
+                name: "sass",
+                image:  "./assets/sass.png",
+            },
+           
+        ],
+       
+        date: "August, 2023",
+        url:[{
+         vercel: "https://portfolio-two-ebon-58.vercel.app/",
+         gitHub: "https://github.com/miriamfraga/Portfolio.git"
+        }],
+        description: ""
+        }
 ]
 export default Project
