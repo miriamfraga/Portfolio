@@ -1,5 +1,30 @@
 const Project = [
     {
+        projectName: "Pokeapi",
+        video: "./assets/pokeapi.mp4",
+        skills:   [
+            {   name: "html",
+                image: "./assets/html.png"
+            },
+            { 
+                name: "css",
+                image:  "./assets/css3.png",
+            },
+            { 
+                name: "javascript",
+                image:  "./assets/js.png",
+            }
+        
+        ],
+        
+        date: "December, 2022", 
+        url: [ { 
+            vercel: "https://pokeapi-seven-rose.vercel.app/",
+            gitHub: "https://github.com/miriamfraga/pokeapi",
+       }],
+        description: "", 
+        },
+    {
     projectName: "Bonsai",
     video: "./assets/bonsai.mp4",
     skills:   [
