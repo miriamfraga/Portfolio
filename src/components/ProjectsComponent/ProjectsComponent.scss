@@ -130,7 +130,7 @@
     .section__projects__div{
         flex-direction: row;
         align-items: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         &__wrapper{
             max-width: calc(30% - 10px);
         }
