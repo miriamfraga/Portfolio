@@ -5,11 +5,15 @@
      padding: 1em;
      align-items: stretch;
    .skills{
-     padding: 1em;
+     padding: 2em;
      box-shadow: 1px 3px 3px 3px rgb(211, 205, 205);
      margin: 1em;
      border-radius: 20px;
    align-items: center;
+   &:hover{
+      background-color: rgb(249, 247, 243);
+      transform: scale(1.2);
+   }
      &__title{
       color: rgb(90, 88, 88);
      }

@@ -9,7 +9,7 @@ const AboutComponent = () => {
   return ( 
   <>
 <div className='title'>
- <h1>skills</h1>
+ <h1>Skills</h1>
  </div>
  
   <section className="section__about">
@@ -20,7 +20,12 @@ const AboutComponent = () => {
    ))}
 </div>
 
-
+<div className='skills'>
+   {Data.environment.map((env)=>(
+ 
+   <h4 className='skills__title'><FontAwesomeIcon icon={faCheck} /> {env.env}</h4>
+    ))}
+ </div>
     <div className="skills">
     
          {Data.skills.map((skill) =>(
@@ -30,12 +35,7 @@ const AboutComponent = () => {
          )}
         
     </div>
-    <div className='skills'>
-      {Data.environment.map((env)=>(
-    
-      <h4 className='skills__title'><FontAwesomeIcon icon={faCheck} /> {env.env}</h4>
-       ))}
-    </div>
+   
   </section>
   </>
   )
