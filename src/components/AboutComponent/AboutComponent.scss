@@ -1,26 +1,15 @@
 .section__about{
-   width: 70%;
-   justify-content: center;
-    display:flex;
-    padding: 1em;
-    margin-left: calc(15%);
-   //  background-color: pink;
-   .title{
-      display:flex;
-      flex-direction: column;
-      background-color: red;
-      
-   }
-   .skills{
+     justify-content: center;
      display:flex;
-     flex-direction:column;
-     flex-wrap: wrap;
-     height: 270px;
-     width: 100%;
+     flex-direction: row;
+     padding: 1em;
+     align-items: stretch;
+   .skills{
+     padding: 1em;
      box-shadow: 1px 3px 3px 3px rgb(211, 205, 205);
      margin: 1em;
      border-radius: 20px;
-     justify-content:center;
+   align-items: center;
      &__title{
       color: rgb(90, 88, 88);
      }

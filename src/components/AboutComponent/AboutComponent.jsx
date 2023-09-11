@@ -13,6 +13,13 @@ const AboutComponent = () => {
  </div>
  
   <section className="section__about">
+  <div className='skills'>
+  {Data.styles.map((st)=>(
+    
+  <h4 className='skills__title' style={{ '--hover-color': st.color }}><FontAwesomeIcon icon={faCheck} />{st.st}</h4>
+   ))}
+</div>
+
 
     <div className="skills">
     
