@@ -16,21 +16,21 @@ const AboutComponent = () => {
   <div className='skills'>
   {Data.styles.map((st)=>(
     
-  <h4 className='skills__title' style={{ '--hover-color': st.color }}><FontAwesomeIcon icon={faCheck} />{st.st}</h4>
+  <h4 className='skills__title' style={{ '--hover-color': st.color }}><FontAwesomeIcon icon={faCheck} className="check"/> {st.st}</h4>
    ))}
 </div>
 
 <div className='skills'>
    {Data.environment.map((env)=>(
  
-   <h4 className='skills__title'><FontAwesomeIcon icon={faCheck} /> {env.env}</h4>
+   <h4 className='skills__title'> <FontAwesomeIcon icon={faCheck}  className="check"/>  {env.env}</h4>
     ))}
  </div>
     <div className="skills">
     
          {Data.skills.map((skill) =>(
          
-                 <h4 className='skills__title'  style={{ '--hover-color': skill.color }}><FontAwesomeIcon icon={faCheck} /> {skill.sk}</h4>
+                 <h4 className='skills__title'  style={{ '--hover-color': skill.color }}><FontAwesomeIcon icon={faCheck}  className="check" />  {skill.sk}</h4>
          ) 
          )}
         
