@@ -1,173 +1,153 @@
-.section__projects{
-      
-      background-color: rgb(255, 255, 255);
-     display:flex;
-     flex-direction: column;
-     align-items: center;
-     &__div{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 90%;
-        margin-top: 1%;
-        &__title{
-            display:flex;
-            justify-content: center;
-            padding: 1%;
-           
-        }
-        &__h1{
-            font-size: 2vw;
-        }
-        &__wrapper{
-            display:flex;
-            margin: 30px;
-            max-width: calc(26% - 10px);
-            box-shadow: 6px 6px 6px rgb(232, 227, 222);
-            border-radius: 20px;
-            flex-direction: column;
-            justify-content: center;
-
-            &__video{
-                 display:flex;
-                justify-content: center;
-            }
-            &__skills{
-                display:flex;
-                justify-content: center;
-                padding: 0;
-                flex-direction: row;
-                align-items: center;
-                flex-wrap: wrap;
-                height: 80px, 60px;
-                align-items: center;
-            }
-            &__url{
-                padding: 5px;
-                display: flex;
-
-                .link{
-                   margin-right: 10px;
-                   padding: 2%;
-                   color: rgb(144, 139, 127);
-                   &:hover{
-                    color: black;
-                }
-                }
-               
-               
-               
-            }
-            &__button{
-                  display:flex;
-                  justify-content: center;
-                  align-items: center;
-                
-                
-                .more{
-                    border: none;
-                    font-size: 25px;
-                    padding: 1%;
-                    background-color:transparent;
-                    color: rgb(144, 139, 127);
-                    &:hover{
-                        color: black;
-                    }
-                }
-            }
-        }
-    }
-
-}
-.icons{
-      width: 30px;
-      padding: 2px;
-}
-
-
-@media only screen and (max-width: 600px) {
-            
-  .section__projects__div{
+.section__projects {
+    background-color: rgb(255, 255, 255);
+    display: flex;
     flex-direction: column;
     align-items: center;
-
-    &__wrapper{
-        max-width: calc(90% - 10px);
-    }
-    &__h1{
-        font-size:large;
-        letter-spacing: 1em;
-        text-transform: lowercase;
-    }
-  }
-
-}
-@media only screen and (min-width: 600px) {
-            
   
-      .section__projects__div__h1{
-          font-size:large;
-          letter-spacing: 1em;
-          text-transform: lowercase;
+    &__div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 90%;
+      margin-top: 1%;
+  
+      &__title {
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+      }
+  
+      &__h1 {
+        font-size: 2vw;
+      }
+  
+      &__wrapper {
+        display: flex;
+        margin: 30px;
+        max-width: calc(26% - 10px);
+        box-shadow: 6px 6px 6px rgb(232, 227, 222);
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: center;
+  
+        &__video {
+          display: flex;
+          justify-content: center;
+        }
+  
+        &__skills {
+          display: flex;
+          justify-content: center;
+          padding: 0;
+          flex-direction: row;
+          align-items: center;
+          flex-wrap: wrap;
+          height: 80px, 60px;
+          align-items: center;
+        }
+  
+        &__url {
+          padding: 5px;
+          display: flex;
+  
+          .link {
+            margin-right: 10px;
+            padding: 2%;
+            color: rgb(144, 139, 127);
+  
+            &:hover {
+              color: black;
+            }
+          }
+        }
+  
+        &__button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          .more {
+            border: none;
+            font-size: 25px;
+            padding: 1%;
+            background-color: transparent;
+            color: rgb(144, 139, 127);
+  
+            &:hover {
+              color: black;
+            }
+          }
+        }
+  
+
       }
     }
+  }
   
-
-@media only screen and (min-width: 601px)  {
-
-    .section__projects__div{
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-        &__wrapper{
-            max-width: calc(40% - 10px);
-        }
+  .icons {
+    width: 30px;
+    padding: 2px;
+  }
+  .div__description{
+     display:flex;
+    //  background-color: rgb(244, 181, 181);
+    .description{
+       padding: 1em;
+       font-weight: 500;
     }
-}
+  }
+  .hidden {
+       display: none;
+   
 
-@media only screen and (min-width: 820px) {
-
-    .section__projects__div{
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-        &__wrapper{
-            max-width: calc(30% - 10px);
-        }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .section__projects__div {
+      flex-direction: column;
+      align-items: center;
+  
+      &__wrapper {
+        max-width: calc(90% - 10px);
+      }
+  
+      &__h1 {
+        font-size: large;
+        letter-spacing: 1em;
+        text-transform: lowercase;
+      }
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .section__projects__div__h1 {
+      font-size: large;
+      letter-spacing: 1em;
+      text-transform: lowercase;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    .section__projects__div {
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      &__wrapper {
+        max-width: calc(40% - 10px);
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 820px) {
+    .section__projects__div {
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      &__wrapper {
+        max-width: calc(30% - 10px);
+      }
+    }
+  }
+  
