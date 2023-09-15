@@ -3,9 +3,9 @@
    display:flex;
    align-items:center;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-around;
    padding: 2em;
-   margin-left: 2em;
+  
     .image{
         width: 350px;
         border-radius: 400px;
@@ -16,17 +16,12 @@
         filter:grayscale(0.6);
         }
     }
-    &__wrapper{
-        display:flex;
-        align-items: center;
 
-        
-        
         .border{
-           width: 50%;
-           display:flex;
-           justify-content: center;
-           flex-direction: column;
+            width: 50%;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
         }
         .div__image{
             display:flex;
@@ -45,7 +40,7 @@
            .about{
             text-align: justify;
             font-family:monospace;
-            
+            width: 50%;
            }
         }
         .div__relative{
@@ -81,7 +76,7 @@
                }
             }
            }
-        }
+        
     
     &__datax{
       width: 300px;

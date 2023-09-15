@@ -3,8 +3,7 @@ import './App.scss';
 import HeaderComponent from './layout/Header/HeaderComponent';
 import FooterComponent from './layout/Footer/FooterComponent';
 import CanvasComponent from './components/CanvasComponent/CanvasComponent';
-//IMPORT HOOKS
-import { useState } from 'react';
+
 //IMPORT PAGES 
 import Home from './pages/Home';
 import Projects from './pages/Projects';

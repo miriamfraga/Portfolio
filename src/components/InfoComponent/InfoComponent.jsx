@@ -44,21 +44,20 @@ const InfoComponent = () => {
 
   return (
     <section id="info" className="section__info">
-      <div className="section__info__wrapper">
-        <div className="border">
-          <div className="div__image">
-            <img className="image" src={image.src} alt={image.alt} />
-          </div>
-          <div className="div__data">
-            <div className="div__relative">
-              <h2 className="title__education">HEY!</h2>
+            <div className="border">
+                    <div className="div__image">
+                      <img className="image" src={image.src} alt={image.alt} />
+                    </div>
+                   <div className="div__data">
+                       <div className="div__relative">
+                           <h2 className="title__education">HEY!</h2>
+                       </div>
+
+                       <div className="div__info">
+                          <h3 className="about">{aboutMe}</h3>
+                       </div>
+                   </div>
             </div>
-            <div className="div__info">
-              <h3 className="about">{aboutMe}</h3>
-            </div>
-          </div>
-        </div>
-      </div>
       <section className="studies">
         <div className="titles">
           {infoComponents.map(({ btn }) => (
@@ -73,7 +72,7 @@ const InfoComponent = () => {
         </div>
         <section className="section__info__datax">
           <Suspense fallback={<div>Loading...</div>}>
-            {/* Add 'key' to each component */}
+           
             {infoComponents.map(({ btn, component }) =>
               btn === componentShowing ? (
                 <React.Fragment key={btn}>
