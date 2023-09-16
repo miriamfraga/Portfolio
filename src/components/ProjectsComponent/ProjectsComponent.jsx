@@ -21,7 +21,7 @@ const ProjectsComponent = () => {
     const newProjectStates = [...projectStates];
     newProjectStates[index] = !newProjectStates[index];
     setProjectStates(newProjectStates);
-    changeVisibility(index); // Cambia la visibilidad específica de este proyecto
+    changeVisibility(index); 
   };
 
   return (

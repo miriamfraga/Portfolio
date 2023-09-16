@@ -10,7 +10,7 @@ const HomeComponent = () => {
          <div className="div__home">
            <section className="div__home__main">
                <div className="container">
-                 <p className="btn"><a href="/#contact" id="js-text">miriamfraga</a></p>
+                 <p className="btn"><a href="/#contact" >miriam fraga</a></p>
                </div>
            </section>
          </div>
